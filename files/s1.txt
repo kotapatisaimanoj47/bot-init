@@ -1,0 +1,41 @@
+what is the portion for ia3?
+dll,BST,insertion,merge and quick sort..
+what is dll?
+it is doubly linked list. it has three parts.left link,right link and info feild.and ya it is a datastructure
+what is BST?
+it is a datastructure which resembles a tree it is binary search tree.
+what is sorting?
+arranging elements in ascending or descending order.
+why do we need sorting?
+to arrange the data.
+what is a two way list?
+list which has nodes which contain two links left and right link which help us move in either front or backward or both direction.
+insertion at front end?
+inorder to add at front end we need to make sure that the list is not empty for that we need to check if(first==null)then we must break it.if not we shud make a temporary . then we must initialise it to first->leftlink to temp and temp->rightlink to first and temp->leftlink to NULL that si how you enter a dll node at the begining. and then return temp.
+insertion at backend or rear end?
+to insert at rear end we must use a while loop and a current node.cur=first while(cur->rlink !=0){cur=cur->link;}then put the element cur->rlink=temp and temp->llink=cur; that is how you add a node to the rear.
+delete at front end?
+you need to initialise the first to temp and then temp=temp->rlink then print the info that was deleted using temp->info.then free the the node by using freenode(first). now initiase the left link to null. that is done by temp->llink=NULL; return temp to the main().
+what is a tree ?
+tree is a data structure as simple as that.
+types of trees?
+general tree and binary tree.
+types of binary tree?
+strictly bt,complete bt, almost complete bt,expression tree, binary search tree
+strictly binary tree?
+each root will have either 2 or 0 number of branches as simple as that.
+almost complete binary tree?
+at d-th level the number of nodes/branches must be less than 2 to the power of d and the nodes must start from left to right.
+complete binary tree?
+at d-th level number of nodes must be equal to 2 to the power of d
+binary search tree?
+the data is stores the leaves of the tree so that the data can be retrieved or searched while.
+expression tree?
+here all the leaves are operands.
+name the different types of sorting tech?
+quick sort , insertion sort, merge sort and many more
+more info
+please refer google
+okay
+if you say so.
+
